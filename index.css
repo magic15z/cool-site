@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+*, *::before, *::after {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+html, body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Translucent Frosted Pill Button in Pure White */
+.frosted-pill-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.04), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.frosted-pill-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #ffffff;
+  box-shadow: 0 0 28px rgba(255, 255, 255, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.frosted-pill-btn:active {
+  transform: translateY(0);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 14px rgba(255, 255, 255, 0.08);
+}
+
+.white-glass-panel {
+  background: rgba(10, 10, 10, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.7), 0 0 24px rgba(255, 255, 255, 0.04);
+}
+

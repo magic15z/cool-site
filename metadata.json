@@ -1,0 +1,6 @@
+{
+  "name": "Spacecraft - Minimalist Hero Interface",
+  "description": "Clean and minimalist hero section for a spacecraft website preserving structural hierarchy, typography, and call-to-action controls on a solid black canvas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
